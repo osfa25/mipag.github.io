@@ -1,0 +1,71 @@
+#contenedor {
+    width: 1000px;
+    height: 800px;
+    margin: 20px auto; /* Centra horizontalmente */
+    padding: 0.5em;
+    border: 6px solid #c21010;
+}
+
+#contenedorsecundario {
+    height: 200px;
+    width: 960px;
+    margin: 10px auto; /* Centra horizontalmente */
+    padding: 0.5em;
+    border: 6px solid blue;
+    display: flex; /* Utiliza flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+#contenedorlogo {
+    height: 180px;
+    width: 180px;
+    margin: 10px auto 10px 0; /* Centra horizontalmente y establece margen a la derecha */
+    padding: 0.5em;
+    border: 6px solid rgb(255, 0, 0);
+}
+
+#contenedorbanner{
+    height: 180px;
+    width: 700px;
+    margin: 10px auto 10px 0; /* Centra horizontalmente y establece margen a la derecha */
+    padding: 0.5em;
+    border: 6px solid rgb(255, 0, 0);
+    float: right;
+}
+
+#navbar{
+    height: 50px;
+    width: 980;
+    margin: 10px auto 10px 0; /* Centra horizontalmente y establece margen a la derecha */
+    padding: 0.5em;
+    border: 6px solid rgb(255, 0, 0);
+
+}
+
+#contenedorbajo{
+    height: 350px;
+    width: 960px;
+    margin: 10px auto; /* Centra horizontalmente */
+    padding: 0.5em;
+    border: 6px solid blue;
+    display: flex; /* Utiliza flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+#article{
+    height: 330px;
+    width: 700px;
+    margin: 10px auto 10px 0; /* Centra horizontalmente y establece margen a la derecha */
+    padding: 0.5em;
+    border: 6px solid rgb(255, 0, 0);
+
+}
+
+#aside{
+    height: 330px;
+    width: 280px;
+    margin: 10px;
+    padding: 0.5em;
+    border: 6px solid rgb(255, 0, 0);
+    float: right;
+}
